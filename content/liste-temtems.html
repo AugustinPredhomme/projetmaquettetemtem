@@ -4,49 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <title>Projet Maquette Temtem</title>
 </head>
 <body>
     <header class="header">
-        <div class="header-left ham_menu_icon menu" tabindex="1">
-            <img src="img/util/hamburger_menu_icon.png" alt="hamburger_menu_icon" class="ham_menu_icon">
-        </div>
         <div class="tt_logo">
-            <a href="index.html"><img src="img/util/temtem_logo.png" alt="temtem_logo" class="tt_logo"></a>
+            <a href="../index.html"><img src="../img/util/temtem_logo.png" alt="temtem_logo" class="tt_logo"></a>
         </div>
-        <div class="header_right"></div>
     </header>
-    <div class="menu-content" id="myMenu">
-        <div id="liste-temtems" class="menu-list">
-            <img src="img/util/list_icon.svg" alt="list_icon" class="menu-icon">
-            <a href="./content/liste-temtems.html" tabindex="0">Liste des temtems</a>
+    <div class="main">
+        <div class="menu">
+            <div class="menu-content" id="myMenu">
+                <div id="liste-temtems" class="menu-list">
+                    <img src="../img/util/list_icon.svg" alt="list_icon" class="menu-icon">
+                    <a href="./liste-temtems.html" tabindex="0">Liste des temtems</a>
+                </div>
+                <div id="tri-temtems" class="menu-list">
+                    <img src="../img/util/sort_icon.png" alt="sort_icon" class="menu-icon">
+                    <a href="./tri-temtems.html" tabindex="0">Trier les temtems</a>
+                </div>
+                <div id="filtre-temtems" class="menu-list">
+                    <img src="../img/util/filter_icon.png" alt="filter_icon" class="menu-icon">
+                    <a href="./filtre-temtems.html" tabindex="0">Filtrer les temtems</a>
+                </div>
+                <div id="ajout-temtems" class="menu-list">
+                    <img src="../img/util/add_icon.png" alt="add_icon" class="menu-icon">
+                    <a href="./ajout-temtem.html" tabindex="0">Ajout d'un temtem</a>
+                </div>
+                <div id="modifier-temtems" class="menu-list">
+                    <img src="../img/util/edit_icon.png" alt="edit_icon" class="menu-icon">
+                    <a href="./modifier-temtem.html" tabindex="0">Modifier un temtem</a>
+                </div>
+                <div id="bouton-retour" class="menu-list">
+                    <img src="../img/util/back_icon.png" alt="back_icon" class="menu-icon">
+                    <button class="btn-back" tabindex="0">Retour</button>
+                </div>
+            </div>
         </div>
-        <div id="tri-temtems" class="menu-list">
-            <img src="img/util/sort_icon.png" alt="sort_icon" class="menu-icon">
-            <a href="./content/tri-temtems.html" tabindex="0">Trier les temtems</a>
-        </div>
-        <div id="filtre-temtems" class="menu-list">
-            <img src="img/util/filter_icon.png" alt="filter_icon" class="menu-icon">
-            <a href="./content/filtre-temtems.html" tabindex="0">Filtrer les temtems</a>
-        </div>
-        <div id="ajout-temtems" class="menu-list">
-            <img src="img/util/add_icon.png" alt="add_icon" class="menu-icon">
-            <a href="./content/ajout-temtem.html" tabindex="0">Ajout d'un temtem</a>
-        </div>
-        <div id="modifier-temtems" class="menu-list">
-            <img src="img/util/edit_icon.png" alt="edit_icon" class="menu-icon">
-            <a href="./content/modifier-temtem.html" tabindex="0">Modifier un temtem</a>
-        </div>
-        <div id="bouton-retour" class="menu-list">
-            <img src="img/util/back_icon.png" alt="back_icon" class="menu-icon">
-            <button class="btn-back" tabindex="0">Retour</button>
-        </div>
-    </div>
 
-    <div class="contenu">
+        <div class="content">
+            <div class="main-content">
+                <section class="tt-cards-list">
+                    <article class="tt-card" id="card-1">
+                        <img src="../img/temtems/mimit.png" alt="mimit-avatar" class="card-img">
+                        <div class="tt-detail">
+                            <div class="tt-id">
+                                <div class="tt-number">#001</div>
+                                <div class="tt-name">Mimit</div>
+                                <img src="../img/types/digital.png" alt="type-digital" class="type">
+                            </div>
+                            <button class="tt-voir-stats" tabindex="0">Voir statistiques</button>
+                        </div>
+                        
+                    </article>
 
-        
+                    <article class="tt-card" id="card-2">
+                        <img src="../img/temtems/swali.png" alt="swali-avatar" class="card-img">
+                        <div class="tt-detail">
+                            <div class="tt-id">
+                                <div class="tt-number">#010</div>
+                                <div class="tt-name">Swali</div>
+                                <img src="../img/types/nature.png" alt="type-nature" class="type">
+                            </div>
+                            <button class="tt-voir-stats" tabindex="0">Voir statistiques</button>
+                        </div>
+
+                    </article>
+                    <article class="tt-card" id="card-3">
+                        <img src="../img/temtems/mosu.png" alt="mosu-avatar" class="card-img">
+                        <div class="tt-detail">
+                            <div class="tt-id">
+                                <div class="tt-number">#014</div>
+                                <div class="tt-name">Mosu</div>
+                                <img src="../img/types/melee.png" alt="type-melee" class="type">
+                            </div>
+                            <button class="tt-voir-stats" tabindex="0">Voir statistiques</button>
+                        </div>
+                    </article>
+                    <article class="tt-card" id="card-4">
+                        <img src="../img/temtems/granpah.png" alt="granpah-avatar" class="card-img">
+                        <div class="tt-detail">
+                            <div class="tt-id">
+                                <div class="tt-number">#018</div>
+                                <div class="tt-name">Granpah</div>
+                                <img src="../img/types/wind.png" alt="type-wind" class="type">
+                            </div>
+                            <button class="tt-voir-stats" tabindex="0">Voir statistiques</button>
+                        </div>
+                    </article>
+                    <article class="tt-card" id="card-5">
+                        <img src="../img/temtems/sparzy.png" alt="sparzy-avatar" class="card-img">
+                        <div class="tt-detail">
+                            <div class="tt-id">
+                                <div class="tt-number">#082</div>
+                                <div class="tt-name">Sparzy</div>
+                                <img src="../img/types/electric.png" alt="type-electric" class="type">
+                            </div>
+                            <button class="tt-voir-stats" tabindex="0">Voir statistiques</button>
+                        </div>
+                    </article>
+                    <article class="tt-card" id="card-6">
+                        <img src="../img/temtems/baboong.png" alt="baboong-avatar" class="card-img">
+                        <div class="tt-detail">
+                            <div class="tt-id">
+                                <div class="tt-number">#093</div>
+                                <div class="tt-name">Baboong</div>
+                                <img src="../img/types/melee.png" alt="type-melee" class="type">
+                            </div>
+                            <button class="tt-voir-stats" tabindex="0">Voir statistiques</button>
+                        </div>
+                    </article>
+                </section>
+                <nav class="pages">
+                    <img src="../img/util/next_page_icon.png" alt="previous-page" class="previous-arrow">
+                    <strong id="page_number">1</strong>
+                    <img src="../img/util/next_page_icon.png" alt="next-page" class="next-arrow">
+                </nav>
+            </div>
+        </div>
     </div>
 </body>
 </html>
