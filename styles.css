@@ -8,6 +8,8 @@ body {
     margin: 0;
     position:relative;
     overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 /*Gestion du header*/
@@ -55,6 +57,62 @@ header{
 .menu-content{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.menu-list{
+    display:flex;
+    flex-direction: row;
+    background-color: #1D9090;
+    border-bottom: 0.3vw solid #26BBBB;
+    border-right: 0.3vw solid #26BBBB;
+    align-items: center;
+    align-content: center;
+    height: 14.3vh;
+}
+.menu-icon{
+    margin-left: 2vw;
+    width: 4vw;
+}
+.menu-content a{
+    display:flex;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 5%;
+    cursor: pointer;
+}
+.btn-back{
+    display:flex;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 5%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .menu-list{
+        width: 100vw;
+        height: 17.2vh;
+        border-bottom: 1vw solid #26BBBB;
+    }
+    .menu-icon{
+        width: 16vw;
+    }
+    .btn-back{
+        display: none;
+    }
+}
+
+.show {
+    display:flex;
 }
 
 
