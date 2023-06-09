@@ -1,0 +1,62 @@
+/*Styles Généraux*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #156666;
+    margin: 0;
+    position:relative;
+    overflow-x: hidden;
+}
+
+/*Gestion du header*/
+header{
+    height: 14vh;
+    width: 100vw;
+    background-color: #2AD0D0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.ham_menu_icon{
+    display: none;
+}
+
+.tt_logo{
+    width: auto;
+    height: 100%;
+}
+
+.header_right{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .ham_menu_icon{
+        width: 16vw;
+        display: flex;
+        cursor: pointer;
+    }
+    .tt_logo{
+        width: 55vw;
+    }
+    .header_right {
+        color: #2AD0D0;
+        width: 10vw;
+        display: flex;
+    }
+}
+
+/*Gestion du menu*/
+.menu-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*Contenu*/
