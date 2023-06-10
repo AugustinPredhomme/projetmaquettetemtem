@@ -9,7 +9,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+[![Steam][steam-shield]][steam-url]
 
 
 <!-- PROJECT LOGO -->
@@ -76,3 +76,5 @@ Project Link: [https://github.com/AugustinPredhomme/projetmaquettetemtem](https:
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/augustin-prédhomme/
+[steam-shield]:https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white
+[steam-url]:https://store.steampowered.com/app/745920/Temtem/
