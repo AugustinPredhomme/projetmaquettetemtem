@@ -61,8 +61,6 @@ Here is the model that I tried to reproduct : https://www.figma.com/file/7i4DMyC
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [![HTML][html-shield]][html-url]
 * [![CSS][css-shield]][css-url]
 * [![Javascript][js-shield]][js-url]
