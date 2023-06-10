@@ -11,8 +11,10 @@
 [![HTML][html-shield]][html-url]
 [![CSS][css-shield]][css-url]
 [![Javascript][js-shield]][js-url]
+[![Figma][figma-shield]][figma-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Steam][steam-shield]][steam-url]
+
 
 
 <!-- PROJECT LOGO -->
@@ -64,6 +66,7 @@ Here is the model that I tried to reproduct : https://www.figma.com/file/7i4DMyC
 * [![HTML][html-shield]][html-url]
 * [![CSS][css-shield]][css-url]
 * [![Javascript][js-shield]][js-url]
+* [![Figma][figma-shield]][figma-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,3 +88,5 @@ Project Link: [https://github.com/AugustinPredhomme/projetmaquettetemtem](https:
 [css-url]:https://developer.mozilla.org/en-US/docs/Web/CSS
 [js-shield]:https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
 [js-url]:https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[figma-shield]:https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
+[figma-url]:https://www.figma.com/file/7i4DMyCV9f2uKUDnM4csab/Maquette-Temtem?type=design&node-id=0-1&t=m61NOqJiDGUHvkwd-0
