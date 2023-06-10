@@ -50,6 +50,8 @@ The goal of this project was to create a prototype of a website containing:
 
 All of this without any framework.
 
+Here is the model that I tried to reproduct : https://www.figma.com/file/7i4DMyCV9f2uKUDnM4csab/Maquette-Temtem?type=design&node-id=0%3A1&t=m61NOqJiDGUHvkwd-1
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
