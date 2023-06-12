@@ -293,6 +293,7 @@ header{
     gap: 5vw;
     align-items: center !important;
     height: 81vh;
+    font-weight: bold;
 }
 
 .tt-showcase{
@@ -376,7 +377,66 @@ progress{
     height: 10vh;
 }
 
+.green{
+    color: #B0D593;
+}
+
+.red{
+    color: #F6695E;
+}
+
 .border_top{
     border-top: 0.3vw solid #26BBBB;
     border-left: 0.3vw solid #26BBBB;
+}
+
+@media screen  and (max-width:500px){
+    .content{
+        width: auto;
+    }
+    #content-stats{
+        flex-direction: column;
+    }
+
+    .tt-showcase-type img{
+        width: 6vh;
+    }
+
+    .stats{
+        margin-top: 0;
+        height: 5vh;
+    }
+
+    .stats-table{
+        margin-top: 0;
+        width: 95vw;
+    }
+    
+    .stats-td{
+        padding-right: 0;
+    }
+
+    th img{
+        width:5vh;
+    }
+
+    td img{
+        width:3vh;
+    }
+
+    progress{
+        width: 80%;
+    }
+
+    .ic{
+        height: 1vh;
+    }
+
+    #bouton-retour{
+        display: none;
+    }
+
+    .tt-showcase-img{
+        align-self: center;
+    }
 }
