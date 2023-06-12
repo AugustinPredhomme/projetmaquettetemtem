@@ -18,35 +18,173 @@
         </div>
         <div class="header_right"></div>
     </header>
-    <div class="menu-content" id="myMenu">
-        <div id="liste-temtems" class="menu-list">
-            <img src="../img/util/list_icon.svg" alt="list_icon" class="menu-icon">
-            <a href="./liste-temtems.html" tabindex="0">Liste des temtems</a>
+    <div class="main">
+        <div class="menu-content menu">
+            <div id="liste-temtems" class="menu-list">
+                <img src="../img/util/list_icon.svg" alt="list_icon" class="menu-icon">
+                <a href="./liste-temtems.html" tabindex="0">Liste des temtems</a>
+            </div>
+            <div id="tri-temtems" class="menu-list">
+                <img src="../img/util/sort_icon.png" alt="sort_icon" class="menu-icon">
+                <a href="./tri-temtems.html" tabindex="0">Trier les temtems</a>
+            </div>
+            <div id="filtre-temtems" class="menu-list">
+                <img src="../img/util/filter_icon.png" alt="filter_icon" class="menu-icon">
+                <a href="./filtre-temtems.html" tabindex="0">Filtrer les temtems</a>
+            </div>
+            <div id="ajout-temtems" class="menu-list">
+                <img src="../img/util/add_icon.png" alt="add_icon" class="menu-icon">
+                <a href="./ajout-temtem.html" tabindex="0">Ajout d'un temtem</a>
+            </div>
+            <div id="modifier-temtems" class="menu-list">
+                <img src="../img/util/edit_icon.png" alt="edit_icon" class="menu-icon">
+                <a href="./modifier-temtem.html" tabindex="0">Modifier un temtem</a>
+            </div>
+            <div id="bouton-retour" class="menu-list" onclick="history.back()">
+                <img src="../img/util/back_icon.png" alt="back_icon" class="menu-icon">
+                <button class="btn-back" tabindex="0">Retour</button>
+            </div>
         </div>
-        <div id="tri-temtems" class="menu-list">
-            <img src="../img/util/sort_icon.png" alt="sort_icon" class="menu-icon">
-            <a href="./tri-temtems.html" tabindex="0">Trier les temtems</a>
-        </div>
-        <div id="filtre-temtems" class="menu-list">
-            <img src="../img/util/filter_icon.png" alt="filter_icon" class="menu-icon">
-            <a href="./filtre-temtems.html" tabindex="0">Filtrer les temtems</a>
-        </div>
-        <div id="ajout-temtems" class="menu-list">
-            <img src="../img/util/add_icon.png" alt="add_icon" class="menu-icon">
-            <a href="./ajout-temtem.html" tabindex="0">Ajout d'un temtem</a>
-        </div>
-        <div id="modifier-temtems" class="menu-list">
-            <img src="../img/util/edit_icon.png" alt="edit_icon" class="menu-icon">
-            <a href="./modifier-temtem.html" tabindex="0">Modifier un temtem</a>
-        </div>
-        <div id="bouton-retour" class="menu-list" onclick="history.back()">
-            <img src="../img/util/back_icon.png" alt="back_icon" class="menu-icon">
-            <button class="btn-back" tabindex="0">Retour</button>
-        </div>
-    </div>
 
-    <div class="contenu">
-        
+        <div class="content">
+            <form class="tt-add">
+                <h1>Ajout Temtem</h1>
+                <section class="tt-input">
+                    <section class="tt-input-id-stats">
+                        <article class="tt-id-input">
+                            <div class="tt-id-input-name">
+                                <label for="name">Nom :</label>
+                                <input type="text" maxlength="20" placeholder="Mimit">
+                            </div>
+                            <div class="tt-id-input-type">
+                                <label for="type">Type :</label>
+                                <select name="type" id="type">
+                                    <option value="neutral">Neutre</option>
+                                    <option value="fire">Feu</option>
+                                    <option value="water">Eau</option>
+                                    <option value="nature">Nature</option>
+                                    <option value="elec">Électrique</option>
+                                    <option value="earth">Terre</option>
+                                    <option value="mental">Mental</option>
+                                    <option value="wind">Vent</option>
+                                    <option value="melee">Combat</option>
+                                    <option value="crystal">Crystal</option>
+                                    <option value="toxic">Toxic</option>
+                                    <option value="digital">Digital</option>
+                                </select>
+                            </div>
+                            <div class="tt-id-input-img">
+                                <label for="img">Image :</label>
+                                <input type="file" accept="image/*">
+                            </div>
+                        </article>
+                        <article class="tt-stats-input">
+                            <div class="stats-h">
+                                <span class="underline">Statistiques</span>
+                            </div>
+                            <div class="stats-d">
+                                <div class="tt-stats-input-hp">
+                                    <label for="hp">PV :</label>
+                                    <input type="number" min="0" max="100" placeholder="50">
+                                </div>
+                                <div class="tt-stats-input-end">
+                                    <label for="end">END :</label>
+                                    <input type="number" min="0" max="100" placeholder="50">
+                                </div>
+                                <div class="tt-stats-input-vit">
+                                    <label for="vit">VIT :</label>
+                                    <input type="number" min="0" max="100" placeholder="50">
+                                </div>
+                                <div class="tt-stats-input-atq">
+                                    <label for="atq">ATQ :</label>
+                                    <input type="number" min="0" max="100" placeholder="50">
+                                </div>
+                                <div class="tt-stats-input-def">
+                                    <label for="def">DÉF :</label>
+                                    <input type="number" min="0" max="100" placeholder="50">
+                                </div>
+                                <div class="tt-stats-input-atqsp">
+                                    <label for="atqsp">ATQSP :</label>
+                                    <input type="number" min="0" max="100" placeholder="50">
+                                </div>
+                                <div class="tt-stats-input-defsp">
+                                    <label for="defsp">DÉFSP :</label>
+                                    <input type="number" min="0" max="100" placeholder="50">
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    <section class="tt-input-str-weak">
+                        <article class="str-weak-h">
+                            <span class="underline">Forces et faiblesses</span>
+                        </article>
+                        <section class="str-weak-input">
+                            <article class="neutral">
+                                <img src="../img/types/neutre.png" alt="type-neutre">
+                                <label for="neutral">Neutre :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="fire">
+                                <img src="../img/types/fire.png" alt="type-feu">
+                                <label for="fire">Feu :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="water">
+                                <img src="../img/types/water.png" alt="type-eau">
+                                <label for="water">Eau :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="nature">
+                                <img src="../img/types/nature.png" alt="type-nature">
+                                <label for="nature">Nature :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="electric">
+                                <img src="../img/types/electric.png" alt="type-electrique">
+                                <label for="elec">Électrique :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="earth">
+                                <img src="../img/types/earth.png" alt="type-terre">
+                                <label for="earth">Earth :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="mental">
+                                <img src="../img/types/mental.png" alt="type-mental">
+                                <label for="mental">Mental :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="wind">
+                                <img src="../img/types/wind.png" alt="type-vent">
+                                <label for="wind">Vent :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="melee">
+                                <img src="../img/types/melee.png" alt="type-combat">
+                                <label for="melee">Combat :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="crystal">
+                                <img src="../img/types/crystal.png" alt="type-crystal">
+                                <label for="crystal">Crystal :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="toxic">
+                                <img src="../img/types/toxic.png" alt="type-toxic">
+                                <label for="toxic">Toxic :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                            <article class="digital">
+                                <img src="../img/types/digital.png" alt="type-digital">
+                                <label for="digital">Digital :</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5">
+                            </article>
+                        </section>
+                    </section>
+                </section>
+                <button type="submit">Valider</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>

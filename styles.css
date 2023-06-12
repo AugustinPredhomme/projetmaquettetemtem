@@ -411,7 +411,7 @@ progress{
         margin-top: 0;
         width: 95vw;
     }
-    
+
     .stats-td{
         padding-right: 0;
     }
@@ -439,4 +439,59 @@ progress{
     .tt-showcase-img{
         align-self: center;
     }
+}
+
+/*Formulaire ajout temtem*/
+.tt-add{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-weight: bold;
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.tt-input{
+    font-size: 1.5em;
+    text-decoration: none !important;
+    margin: 1vw;
+}
+
+.tt-input-id-stats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tt-id-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.tt-stats-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.tt-input-str-weak{
+    display: flex;
+    flex-direction: column;
+}
+
+.str-weak-h{
+    display: flex;
+    flex-direction: row;
+}
+
+.str-weak-input{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.str-weak-input img{
+    width: 4vw;
 }
