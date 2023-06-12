@@ -286,3 +286,97 @@ header{
         margin-top: 1vh;
     }
 }
+
+/*Détails Temtem tableau*/
+#content-stats{
+    flex-direction: row;
+    gap: 5vw;
+    align-items: center !important;
+    height: 81vh;
+}
+
+.tt-showcase{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-left: 3vw;
+}
+
+.tt-showcase-name{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+.tt-showcase-img{
+    display: flex;
+    width: 20vw;
+}
+
+.tt-showcase-type{
+    display: flex;
+    color:white;
+    justify-content: center;
+}
+
+.tt-showcase-type img{
+    width: 6vw;
+}
+
+.tt-showcase-type-name{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.stats{
+    margin-top:5vh;
+}
+
+.stats-table{
+    background-color: #26BBBB;
+    width: 70vw;
+    margin-top: 2vh;
+}
+
+.stats-td{
+    background-color: #1D9090;
+    color:white;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.2em;
+}
+
+.stats-value{
+    padding-left: 0% !important;
+}
+
+span.stats-td{
+    padding-left: 5%;
+}
+
+td img{
+    width:2.5vw;
+}
+
+th img{
+    width:5vw;
+}
+
+progress{
+    width: 80%;
+}
+
+.ic{
+    height: 5vh;
+}
+
+#defsp{
+    height: 10vh;
+}
+
+.border_top{
+    border-top: 0.3vw solid #26BBBB;
+    border-left: 0.3vw solid #26BBBB;
+}
