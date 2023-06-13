@@ -48,17 +48,17 @@
 
         <div class="content">
             <form class="tt-add">
-                <h1>Ajout Temtem</h1>
+                <h1 tabindex="0">Ajout Temtem</h1>
                 <section class="tt-input">
                     <section class="tt-input-id-stats">
                         <article class="tt-id-input">
                             <div class="tt-id-input-name">
-                                <label for="name">Nom :</label>
-                                <input type="text" maxlength="20" placeholder="Mimit">
+                                <label for="name" tabindex="0">Nom :</label>
+                                <input type="text" maxlength="20" placeholder="Mimit" tabindex="0">
                             </div>
                             <div class="tt-id-input-type">
-                                <label for="type">Type :</label>
-                                <select name="type" id="type">
+                                <label for="type" tabindex="0">Type :</label>
+                                <select name="type" id="type" tabindex="0">
                                     <option value="neutral">Neutre</option>
                                     <option value="fire">Feu</option>
                                     <option value="water">Eau</option>
@@ -74,45 +74,45 @@
                                 </select>
                             </div>
                             <div class="tt-id-input-img">
-                                <label for="img">Image :</label>
-                                <input type="file" accept="image/*">
+                                <label for="file" tabindex="0">Image :</label>
+                                <input type="file" accept="image/*" tabindex="0" aria-label="choose file">
                             </div>
                         </article>
                         <article class="tt-stats-input">
                             <div class="stats-h">
-                                <span class="underline">Statistiques</span>
+                                <span class="underline" tabindex="0">Statistiques</span>
                             </div>
                             <div class="stats-d">
                                 <section class="stats-d1">
                                     <div class="tt-stats-input-hp">
-                                        <label for="hp">PV :</label>
-                                        <input type="number" min="0" max="100" placeholder="50">
+                                        <label for="hp" tabindex="0">PV :</label>
+                                        <input type="number" min="0" max="100" placeholder="50" tabindex="0">
                                     </div>
                                     <div class="tt-stats-input-end">
-                                        <label for="end">END :</label>
-                                        <input type="number" min="0" max="100" placeholder="50">
+                                        <label for="end" tabindex="0">END :</label>
+                                        <input type="number" min="0" max="100" placeholder="50" tabindex="0">
                                     </div>
                                     <div class="tt-stats-input-vit">
-                                        <label for="vit">VIT :</label>
-                                        <input type="number" min="0" max="100" placeholder="50">
+                                        <label for="vit" tabindex="0">VIT :</label>
+                                        <input type="number" min="0" max="100" placeholder="50" tabindex="0">
                                     </div>
                                 </section>
                                 <section class="stats-d2">
                                     <div class="tt-stats-input-atq">
-                                        <label for="atq">ATQ :</label>
-                                        <input type="number" min="0" max="100" placeholder="50">
+                                        <label for="atq" tabindex="0">ATQ :</label>
+                                        <input type="number" min="0" max="100" placeholder="50" tabindex="0">
                                     </div>
                                     <div class="tt-stats-input-def">
-                                        <label for="def">DÉF :</label>
-                                        <input type="number" min="0" max="100" placeholder="50">
+                                        <label for="def" tabindex="0">DÉF :</label>
+                                        <input type="number" min="0" max="100" placeholder="50" tabindex="0">
                                     </div>
                                     <div class="tt-stats-input-atqsp">
-                                        <label for="atqsp">ATQSP :</label>
-                                        <input type="number" min="0" max="100" placeholder="50">
+                                        <label for="atqsp" tabindex="0">ATQSP :</label>
+                                        <input type="number" min="0" max="100" placeholder="50" tabindex="0">
                                     </div>
                                     <div class="tt-stats-input-defsp">
-                                        <label for="defsp">DÉFSP :</label>
-                                        <input type="number" min="0" max="100" placeholder="50">
+                                        <label for="defsp" tabindex="0">DÉFSP :</label>
+                                        <input type="number" min="0" max="100" placeholder="50" tabindex="0">
                                     </div>
                                 </section>
                             </div>
@@ -120,74 +120,74 @@
                     </section>
                     <section class="tt-input-str-weak">
                         <article class="str-weak-h">
-                            <span class="underline">Forces et faiblesses</span>
+                            <span class="underline" tabindex="0">Forces et faiblesses</span>
                         </article>
                         <section class="str-weak-input">
                             <article class="neutral type">
                                 <img src="../img/types/neutre.png" alt="type-neutre">
-                                <label for="neutral">Neutre:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="neutral" tabindex="0">Neutre:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="fire type">
                                 <img src="../img/types/fire.png" alt="type-feu">
-                                <label for="fire">Feu:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="fire" tabindex="0">Feu:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="water type">
                                 <img src="../img/types/water.png" alt="type-eau">
-                                <label for="water">Eau:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="water" tabindex="0">Eau:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="nature type">
                                 <img src="../img/types/nature.png" alt="type-nature">
-                                <label for="nature">Nature:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="nature" tabindex="0">Nature:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="electric type">
                                 <img src="../img/types/electric.png" alt="type-electrique">
-                                <label for="elec">Électrique:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="elec" tabindex="0">Électrique:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="earth type">
                                 <img src="../img/types/earth.png" alt="type-terre">
-                                <label for="earth">Earth:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="earth" tabindex="0">Earth:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="mental type">
                                 <img src="../img/types/mental.png" alt="type-mental">
-                                <label for="mental">Mental:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="mental" tabindex="0">Mental:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="wind type">
                                 <img src="../img/types/wind.png" alt="type-vent">
-                                <label for="wind">Vent:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="wind" tabindex="0">Vent:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="melee type">
                                 <img src="../img/types/melee.png" alt="type-combat">
-                                <label for="melee">Combat:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="melee" tabindex="0">Combat:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="crystal type">
                                 <img src="../img/types/crystal.png" alt="type-crystal">
-                                <label for="crystal">Crystal:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="crystal" tabindex="0">Crystal:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="toxic type">
                                 <img src="../img/types/toxic.png" alt="type-toxic">
-                                <label for="toxic">Toxic:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="toxic" tabindex="0">Toxic:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                             <article class="digital type">
                                 <img src="../img/types/digital.png" alt="type-digital">
-                                <label for="digital">Digital:</label>
-                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5">
+                                <label for="digital" tabindex="0">Digital:</label>
+                                <input type="number" min="0.5" max="2" placeholder="1.5" step="0.5" tabindex="0">
                             </article>
                         </section>
                     </section>
                 </section>
                 <div class="validate">
-                    <button type="submit" class="btn-validate">Valider</button>
+                    <button type="submit" class="btn-validate" tabindex="0">Valider</button>
                 </div>
             </form>
         </div>
