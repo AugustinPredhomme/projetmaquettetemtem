@@ -556,3 +556,36 @@ h1{
     margin-right: 5vw;
     margin-bottom: 2vh;
 }
+
+@media screen and (max-width: 500px) {
+    .tt-input-id-stats {
+        flex-direction: column;
+        gap: 2vh;    
+    }
+
+    .str-weak-input{
+        justify-content: space-around;
+    }
+    
+    .type{
+        width: 40vw;
+    }
+
+    .type label{
+        width:100%;
+    }
+
+    .type img{
+        width: 4vh;
+    }
+
+    .validate{
+        height: 8vh;
+    }
+
+    .btn-validate{
+        width: 25vw;
+        height: 10vw;
+        margin-bottom: 1vh;
+    }
+}
