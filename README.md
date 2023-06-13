@@ -41,8 +41,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-⚠️ **Project in Development** ⚠️
-
 **Project done in a few days during my training at 3WA.**
 
 The goal of this project was to create a prototype of a website containing:
