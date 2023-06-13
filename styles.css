@@ -81,7 +81,7 @@ header{
     border-right: 0.3vw solid #26BBBB;
     align-items: center;
     align-content: center;
-    height: 18.3vh;
+    height: 14.3vh;
 }
 .menu-icon{
     margin-left: 2vw;
@@ -455,6 +455,9 @@ h1{
 }
 
 .tt-input{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
     font-size: 1.5em;
     text-decoration: none !important;
     margin: 1vw;
@@ -469,14 +472,35 @@ h1{
 .tt-id-input{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-left: 4vw;
 }
 
 .tt-stats-input{
     display: flex;
     flex-direction: column;
+    flex-grow: 2;
 }
 
 .tt-input-str-weak{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.stats-h{
+    display: flex;
+    justify-content: center;
+}
+
+.stats-d{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stats-d1, .stats-d2{
     display: flex;
     flex-direction: column;
 }
@@ -484,14 +508,51 @@ h1{
 .str-weak-h{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .str-weak-input{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .str-weak-input img{
     width: 4vw;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.type{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+}
+
+.validate{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 18vh;
+}
+
+.btn-validate{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 5vw;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0.3vw solid #26BBBB;
+    cursor: pointer;
+    margin-right: 5vw;
+    margin-bottom: 2vh;
 }
